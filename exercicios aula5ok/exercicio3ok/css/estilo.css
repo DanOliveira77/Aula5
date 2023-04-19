@@ -1,0 +1,53 @@
+body{
+    background-image: url("imagens/bg.jpg");
+}
+
+#formulario{
+    width: 350px;
+    height: 250px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #000;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#formulario form{
+    width: 300px;
+    margin: auto;  
+}
+
+.campos{
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    margin: 5px;
+    width: 230px;
+    height: 30px;
+}
+
+#formulario p{
+    text-align: center;
+    font-size: 25pt;
+    margin: 0;
+    padding-top: 20px;
+}
+
+a{
+    text-align: right;
+    text-decoration: none;
+    color: #c73b04;
+    display: block;
+    padding-bottom: 10px;
+}
+
+#logar{
+    width: 100%;
+    font-size: 18pt;
+    border-radius: 10px;
+    height: 55px;
+    background-color: #ff7c48;
+}
